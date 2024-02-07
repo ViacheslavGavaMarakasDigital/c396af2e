@@ -9,6 +9,9 @@
     },
     "form": {
       "type": "contact-form",
+      "custom_css": [
+        "button {font-weight: 700; background-color: #ffd200;}"
+      ],
       "settings": {
         "heading": "",
         "heading_size": "h1",

@@ -3,15 +3,9 @@ if (!customElements.get('product-info')) {
     constructor() {
       super();
       this.input = this.querySelector('.quantity__input');
-      console.log('input  : ', this.input);
       this.currentVariant = this.querySelector('.product-variant-id');
       this.variantSelects = this.querySelector('variant-radios')
       this.submitButton = this.querySelector('[type="submit"]');
-
-
-      console.log( 'this.submitButton  : ', this.submitButton );
-      console.log( 'ProductInfo : ', this );
-
     }
 
     cartUpdateUnsubscriber = undefined;

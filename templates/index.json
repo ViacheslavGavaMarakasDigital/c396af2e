@@ -53,6 +53,9 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "custom_css": [
+        "h2 {color: #ffc200;}"
+      ],
       "settings": {
         "title": "<strong>Featured products<\/strong>",
         "heading_size": "h1",
